@@ -1,0 +1,143 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #ff69b4; 
+}
+
+.formContainer {
+  background-color: #ffe4e1; 
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0px 0px 10px rgba(255, 105, 180, 0.2); 
+  border-radius: 8px;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ff1493; 
+  font-weight: bold;
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ffb6c1; 
+  box-sizing: border-box;
+}
+
+.formButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff69b4; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.formButton:hover {
+  background-color: #ff1493; 
+}
+
+.formButton:active {
+  background-color: #c71585; 
+}
+
+.formInput:focus {
+  border-color: #ff1493; 
+  outline: none;
+}
+
+.divP {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff69b4; 
+}
+
+.divB {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.playButtons {
+  margin: 20px;
+  padding: 10px;
+  background-color: #ffb6c1; 
+  border-radius: 10px;
+  border-color: #ff69b4; 
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.playButtons:hover {
+  background-color: #ff69b4; 
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  background-color: #ffe4e1; 
+}
+
+section {
+  width: 100%;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 120%;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/07/75/46/85/1000_F_775468507_C6dlignwYq1VF61HbdiY1z7dMXSPNR82.jpg");
+  background-size: 200px 200px;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.scoreDisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  height: 50px;
+}
+
+.scoreDisplay p {
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ffe4e1; 
+  border: 1px solid #ffb6c1; 
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff1493; 
+}
+
+::-webkit-scrollbar {
+  width: auto;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffb6c1; 
+  border-radius: 6px;
+}
